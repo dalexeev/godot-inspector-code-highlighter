@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxo7xxgavk1f8"]
+
+[ext_resource type="Script" path="res://test.gd" id="1_3yy80"]
+
+[node name="Test" type="Node"]
+script = ExtResource("1_3yy80")
+normal_text = "func f():
+	pass
+"
+source_code = "func f():
+	pass
+"
