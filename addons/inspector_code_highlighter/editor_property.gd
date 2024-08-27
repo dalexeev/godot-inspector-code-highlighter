@@ -67,6 +67,9 @@ func get_custom_control() -> Control:
 
 
 func _get_highlighter(attempt: int = 1) -> SyntaxHighlighter:
+	if Engine.get_version_info().hex >= 0x040400:
+		return ClassDB.instantiate(&"GDScriptSyntaxHighlighter")
+
 	if _highlighter:
 		return _highlighter
 

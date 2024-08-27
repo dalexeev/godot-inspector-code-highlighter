@@ -2,7 +2,7 @@
 
 Adds GDScript syntax highlighting to the Inspector.
 
-Compatible with **Godot 4.3 dev 6**.
+Compatible with Godot **4.3** and **4.4 dev 1**.
 
 See [godotengine/godot-proposals#9749](https://github.com/godotengine/godot-proposals/issues/9749) for details.
 

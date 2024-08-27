@@ -2,7 +2,6 @@
 extends EditorPlugin
 
 
-@warning_ignore("inferred_declaration")
 const _InspectorPlugin = preload("./inspector_plugin.gd")
 
 var _inspector_plugin: _InspectorPlugin = _InspectorPlugin.new()

@@ -2,7 +2,6 @@
 extends EditorInspectorPlugin
 
 
-@warning_ignore("inferred_declaration")
 const _EditorProperty = preload("./editor_property.gd")
 
 
